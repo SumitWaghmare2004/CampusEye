@@ -1,0 +1,3 @@
+{
+  "error": "Cannot create binary files. Please download the face-api.js models from https://github.com/justadudewhohacks/face-api.js/tree/master/weights and place them in the public/models directory."
+}
