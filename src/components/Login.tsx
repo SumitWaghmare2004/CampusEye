@@ -91,7 +91,7 @@ export const Login: React.FC = () => {
                   value={credentials.id}
                   onChange={(e) => setCredentials(prev => ({ ...prev, id: e.target.value }))}
                   className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-                  placeholder="Enter your ID"
+                  placeholder="Enter User123"
                   required
                   disabled={loading}
                 />
@@ -110,7 +110,7 @@ export const Login: React.FC = () => {
                   value={credentials.password}
                   onChange={(e) => setCredentials(prev => ({ ...prev, password: e.target.value }))}
                   className="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-                  placeholder="Enter your password"
+                  placeholder="Enter User@123"
                   required
                   disabled={loading}
                 />
